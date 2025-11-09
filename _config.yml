@@ -1,0 +1,17 @@
+title: "Grow With Boss"
+description: "Blog posts synced automatically from Google Sheets 🚀"
+theme: minima
+baseurl: "/blog"
+url: "https://growwithboss.github.io"
+
+# Jekyll settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+
+# Exclude workflow files from build
+exclude:
+  - .github/
+  - scripts/
+  - blog.csv
