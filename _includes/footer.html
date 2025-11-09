@@ -1,0 +1,8 @@
+<footer>
+  <p>© {{ site.time | date: "%Y" }} {{ site.title }} — All rights reserved.</p>
+  <div class="social">
+    {% for name, link in site.social_links %}
+      <a href="{{ link }}" target="_blank">{{ name | capitalize }}</a>
+    {% endfor %}
+  </div>
+</footer>
