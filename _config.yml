@@ -23,3 +23,9 @@ social_links:
   twitter: "https://twitter.com/growwithboss"
   github: "https://github.com/growwithboss"
   linkedin: "https://linkedin.com/in/growwithboss"
+
+  exclude:
+  - README.md
+  - .github/
+  - scripts/
+  - blog.csv
