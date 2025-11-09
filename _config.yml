@@ -1,31 +1,32 @@
 title: "Grow With Boss"
-description: "Actionable growth tips, productivity, and business insights"
-author: "GrowWithBoss"
-url: "https://growwithboss.github.io"
-baseurl: "/blog"
-theme: null
+description: "Actionable growth tips, productivity, and business insights 🚀"
+baseurl: ""
+url: "https://growwithboss.github.io/blog"  # Change if you have a custom domain
+
+theme: minima  # Simple clean theme (can upgrade later)
+
+# Author info (optional)
+author:
+  name: "Grow With Boss"
+  email: "growwithboss@gmail.com"
+
+# Markdown and plugins
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
-paginate: 5
-paginate_path: "/page:num/"
 plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-seo-tag
 
-# Exclude non-site files
+# Exclude non-site files (important!)
 exclude:
-  - .github/
-  - scripts/
-  - blog.csv
-
-social_links:
-  twitter: "https://twitter.com/growwithboss"
-  github: "https://github.com/growwithboss"
-  linkedin: "https://linkedin.com/in/growwithboss"
-
-  exclude:
   - README.md
   - .github/
   - scripts/
   - blog.csv
+  - LICENSE
+  - requirements.txt
+
+# Posts directory
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
