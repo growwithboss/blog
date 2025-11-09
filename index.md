@@ -1,23 +1,19 @@
 ---
-layout: default
+layout: home
 title: "Grow With Boss Blog"
 ---
 
-# 📝 Blog
+# 📝 Grow With Boss Blog
 
-Welcome to **BOSS** — your source for growth, business, and strategy insights.
+Welcome to **Grow With Boss** — your hub for insights, growth strategies, and ideas.
 
----
+Explore the latest posts below 👇
 
-<ul>
 {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url | relative_url }}">
-      <h3>{{ post.title }}</h3>
-    </a>
+  <article>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
     <p><small>{{ post.date | date: "%B %d, %Y" }}</small></p>
     <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
     <hr>
-  </li>
+  </article>
 {% endfor %}
-</ul>
