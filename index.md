@@ -5,7 +5,7 @@ title: "Grow With Boss"
 
 # 🧠 Grow With Boss
 
-Welcome to **Grow With Boss** — your destination for growth, business, and mindset strategies.
+Welcome to **Grow With Boss** — your destination for business growth, mindset, and productivity insights.
 
-Stay tuned as new posts are automatically synced from our Google Sheet.  
-Scroll below 👇 to explore our latest insights.
+✨ New posts are synced automatically from our Google Sheet.  
+Scroll down to explore the latest updates!
