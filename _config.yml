@@ -3,7 +3,7 @@ description: "Insights, strategies, and stories to help you grow smarter 🚀"
 url: "https://growwithboss.github.io/blog"
 baseurl: ""
 
-theme: jekyll-theme-slate  # Modern dark layout, works natively on GitHub Pages
+theme: jekyll-theme-slate
 
 plugins:
   - jekyll-feed
@@ -12,13 +12,5 @@ plugins:
 author:
   name: "Grow With Boss"
   email: "growwithboss@gmail.com"
-
-exclude:
-  - README.md
-  - .github/
-  - scripts/
-  - blog.csv
-  - LICENSE
-  - requirements.txt
 
 markdown: kramdown
