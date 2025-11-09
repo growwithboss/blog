@@ -1,11 +1,17 @@
 name: Sync blog from Google Sheet
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:     # You can trigger manually from GitHub Actions tab
+  schedule:
+    - cron: '0 0 * * *'  # (Optional) runs every midnight UTC — auto sync daily
+
+permissions:
+  contents: write         # Allow the Action to push updates to your repo
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -24,8 +30,8 @@ jobs:
           SHEET_CSV_URL: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQtNx-Dp4XNIMj49KoVPqERdrQJswB4iFo3ZA79mWje2opaZ35Ew84WyugYkDSVffJiLJtKT7l2DUjm/pub?output=csv"
         run: |
           echo "Downloading Google Sheet..."
-          echo "URL is: $SHEET_CSV_URL"
           curl -L "$SHEET_CSV_URL" -o blog.csv
+          echo "✅ Downloaded Google Sheet successfully"
 
       - name: Convert CSV to Markdown
         run: |
