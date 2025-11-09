@@ -3,26 +3,12 @@ description: "Insights, strategies, and stories to help you grow smarter 🚀"
 url: "https://growwithboss.github.io/blog"
 baseurl: ""
 
-# Theme and plugins
-remote_theme: "wowthemesnet/mundana-jekyll-theme"  # Modern card layout
+theme: jekyll-theme-slate
+
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
-# Author info
-author:
-  name: "Grow With Boss"
-  email: "growwithboss@gmail.com"
-  bio: "Actionable growth tips, productivity, and business insights."
-
-# Social (optional)
-social:
-  github: growwithboss
-  linkedin: growwithboss
-  instagram: growwithboss
-
-# Exclude non-site files
 exclude:
   - README.md
   - .github/
@@ -31,16 +17,4 @@ exclude:
   - LICENSE
   - requirements.txt
 
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:title/
-
-# Feed & SEO
-feed:
-  path: feed.xml
-
-# Pagination (optional)
-paginate: 6
-paginate_path: "/page:num/"
+markdown: kramdown
