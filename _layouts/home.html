@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<h1 class="site-title">{{ site.title }}</h1>
+<p class="site-desc">{{ site.description }}</p>
+
+<div class="post-list">
+  {% for post in paginator.posts %}
+    <article class="post-card">
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="meta">{{ post.date | date: "%B %d, %Y" }}</p>
+      <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      <a href="{{ post.url | relative_url }}" class="read-more">→ Read more</a>
+    </article>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="btn">← Newer</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="btn">Older →</a>
+  {% endif %}
+</div>
