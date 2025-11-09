@@ -17,9 +17,10 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
-        run: |
-          pip install requests pandas
+          - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas python-frontmatter requests
 
       - name: Run sync script
         env:
