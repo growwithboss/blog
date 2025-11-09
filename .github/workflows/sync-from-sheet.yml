@@ -28,6 +28,5 @@ jobs:
           curl -L "$SHEET_CSV_URL" -o blog.csv
 
       - name: Run sync script
-        run: |
-          mkdir -p posts
+        run: mkdir -p posts
           python scripts/csv_to_md.py blog.csv posts/
