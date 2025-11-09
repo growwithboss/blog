@@ -1,8 +1,15 @@
-<footer>
-  <p>© {{ site.time | date: "%Y" }} {{ site.title }} — All rights reserved.</p>
-  <div class="social">
-    {% for name, link in site.social_links %}
-      <a href="{{ link }}" target="_blank">{{ name | capitalize }}</a>
-    {% endfor %}
-  </div>
+<footer class="site-footer" style="text-align:center; padding:30px; background:#f8f8f8; font-size:0.9em;">
+  <p>© {{ site.time | date: '%Y' }} <strong>{{ site.title }}</strong>. All rights reserved.</p>
+
+  {% if site.social_links %}
+    <p>
+      {% for platform in site.social_links %}
+        <a href="{{ platform[1] }}" target="_blank" style="margin:0 10px;">
+          {{ platform[0] | capitalize }}
+        </a>
+      {% endfor %}
+    </p>
+  {% endif %}
+
+  <p><a href="{{ '/' | relative_url }}">Back to Home</a></p>
 </footer>
