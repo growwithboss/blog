@@ -3,11 +3,15 @@ description: "Insights, strategies, and stories to help you grow smarter 🚀"
 url: "https://growwithboss.github.io/blog"
 baseurl: ""
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-slate  # Modern dark layout, works natively on GitHub Pages
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+author:
+  name: "Grow With Boss"
+  email: "growwithboss@gmail.com"
 
 exclude:
   - README.md
