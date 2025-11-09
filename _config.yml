@@ -3,7 +3,7 @@ description: "Insights, strategies, and stories to help you grow smarter 🚀"
 url: "https://growwithboss.github.io/blog"
 baseurl: ""
 
-theme: jekyll-theme-slate
+theme: minima
 
 plugins:
   - jekyll-feed
@@ -14,3 +14,10 @@ author:
   email: "growwithboss@gmail.com"
 
 markdown: kramdown
+show_excerpts: true
+paginate: 10
+paginate_path: "/page:num/"
+
+collections:
+  posts:
+    output: true
