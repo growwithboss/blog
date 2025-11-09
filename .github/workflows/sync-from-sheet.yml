@@ -3,27 +3,25 @@ name: Sync blog from Google Sheet
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2 * * *'  # every day at 2 AM UTC
+    - cron: "0 * * * *"  # Runs every hour
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
-          - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pandas python-frontmatter requests
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas python-frontmatter requests
 
       - name: Run sync script
-        env:
-          SHEET_CSV_URL: ${{ secrets.SHEET_CSV_URL }}
-        run: |
-          python scripts/csv_to_md.py
+        run: python scripts/csv_to_md.py
