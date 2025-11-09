@@ -1,38 +1,13 @@
 body {
-  font-family: system-ui, sans-serif;
+  font-family: "Segoe UI", Roboto, sans-serif;
   line-height: 1.7;
+  color: #222;
+  background: #fff;
   margin: 0;
-  padding: 0;
-  background: var(--bg);
-  color: var(--text);
-  transition: background 0.3s, color 0.3s;
-}
-
-:root {
-  --bg: #ffffff;
-  --text: #111111;
-  --accent: #0077cc;
-}
-
-.dark {
-  --bg: #111111;
-  --text: #f5f5f5;
-}
-
-header, footer {
-  background: var(--accent);
-  color: white;
-  padding: 1em;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 a {
-  color: var(--accent);
+  color: #007acc;
   text-decoration: none;
 }
 
@@ -40,21 +15,19 @@ a:hover {
   text-decoration: underline;
 }
 
-.post-card {
-  border-bottom: 1px solid #ccc;
-  padding: 1em 0;
+article {
+  margin-bottom: 2em;
 }
 
-.tag {
-  background: var(--accent);
-  color: white;
-  padding: 0.2em 0.6em;
-  border-radius: 4px;
-  font-size: 0.8em;
-  margin-right: 5px;
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
 }
 
-footer .social a {
-  margin: 0 10px;
-  color: white;
+footer a {
+  color: #333;
+}
+
+footer a:hover {
+  color: #007acc;
 }
