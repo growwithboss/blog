@@ -19,11 +19,12 @@ jobs:
         run: |
           pip install pandas pyyaml python-frontmatter requests
 
-      - name: Download Google Sheet as CSV
+            - name: Download Google Sheet as CSV
         env:
           SHEET_CSV_URL: ${{ secrets.SHEET_CSV_URL }}
         run: |
           echo "Downloading Google Sheet..."
+          echo "URL is: $SHEET_CSV_URL"
           curl -L "$SHEET_CSV_URL" -o blog.csv
 
       - name: Run sync script
