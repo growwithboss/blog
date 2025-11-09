@@ -23,5 +23,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas python-frontmatter requests
 
-      - name: Run sync script
-        run: python scripts/csv_to_md.py
+          - name: Run sync script
+      run: |
+        python scripts/csv_to_md.py blog.csv posts/
+
