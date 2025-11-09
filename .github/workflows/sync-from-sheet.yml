@@ -6,6 +6,7 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -17,9 +18,10 @@ jobs:
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install pandas pyyaml python-frontmatter requests
 
-            - name: Download Google Sheet as CSV
+      - name: Download Google Sheet as CSV
         env:
           SHEET_CSV_URL: ${{ secrets.SHEET_CSV_URL }}
         run: |
@@ -28,5 +30,6 @@ jobs:
           curl -L "$SHEET_CSV_URL" -o blog.csv
 
       - name: Run sync script
-        run: mkdir -p posts
+        run: |
+          mkdir -p posts
           python scripts/csv_to_md.py blog.csv posts/
