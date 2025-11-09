@@ -21,3 +21,9 @@ paginate_path: "/page:num/"
 collections:
   posts:
     output: true
+
+# Social (for footer)
+social_links:
+  twitter: "https://twitter.com/"
+  linkedin: "https://linkedin.com/"
+  github: "https://github.com/growwithboss"
