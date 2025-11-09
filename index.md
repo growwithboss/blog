@@ -1,11 +1,23 @@
 ---
-layout: home
-title: "Grow With Boss"
+layout: default
+title: "Grow With Boss Blog"
 ---
 
-# 🧠 Grow With Boss
+# 📝 Blog
 
-Welcome to **Grow With Boss** — your destination for business growth, mindset, and productivity insights.
+Welcome to **BOSS** — your source for growth, business, and strategy insights.
 
-✨ New posts are synced automatically from our Google Sheet.  
-Scroll down to explore the latest updates!
+---
+
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">
+      <h3>{{ post.title }}</h3>
+    </a>
+    <p><small>{{ post.date | date: "%B %d, %Y" }}</small></p>
+    <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+    <hr>
+  </li>
+{% endfor %}
+</ul>
