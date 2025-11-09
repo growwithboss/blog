@@ -8,7 +8,6 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -16,31 +15,14 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.x'
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install pandas python-frontmatter
+          pip install requests pandas
 
-      - name: Download CSV from Google Sheets
+      - name: Run sync script
         env:
           SHEET_CSV_URL: ${{ secrets.SHEET_CSV_URL }}
         run: |
-          curl -fsSL "$SHEET_CSV_URL" -o sheet.csv
-
-      - name: Convert CSV rows to markdown posts
-        run: |
-          python scripts/csv_to_md.py sheet.csv content/posts
-
-      - name: Commit & push new posts
-        run: |
-          git config user.name "growwithboss"
-          git config user.email "growwithboss@gmail.com"
-          git add content/posts || true
-          if git diff --staged --quiet; then
-            echo "No new posts to commit"
-          else
-            git commit -m "Sync posts from Google Sheet"
-            git push
-          fi
+          python scripts/csv_to_md.py
