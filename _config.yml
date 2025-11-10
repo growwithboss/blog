@@ -1,7 +1,7 @@
 title: "Grow With Boss"
-description: "Insights, strategies, and stories to help you grow smarter 🚀"
-url: "https://growwithboss.github.io/blog"
-baseurl: ""
+description: "Insights and articles from Grow With Boss"
+baseurl: "" # leave blank unless deploying under a subpath
+url: "https://growwithboss.github.io" # replace with your site URL
 
 theme: minima
 
@@ -9,21 +9,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-author:
-  name: "Grow With Boss"
-  email: "growwithboss@gmail.com"
-
-markdown: kramdown
-show_excerpts: true
-paginate: 10
+paginate: 5
 paginate_path: "/page:num/"
 
 collections:
   posts:
     output: true
-
-# Social (for footer)
-social_links:
-  twitter: "https://twitter.com/"
-  linkedin: "https://linkedin.com/"
-  github: "https://github.com/growwithboss"
