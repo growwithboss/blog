@@ -14,7 +14,7 @@ title: "BOSS BLOG"
       {% if post.thumbnail %}
         <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="width:100%; border-radius:12px; margin-bottom:1rem;">
       {% endif %}
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ post.url | relative_url }}" class="btn">Read More</a></h2>
       <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
       {% if post.excerpt %}
         <p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
