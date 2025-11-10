@@ -1,33 +1,82 @@
+---
+---
+
+@import "minima";
+
 body {
-  font-family: "Segoe UI", Roboto, sans-serif;
-  line-height: 1.7;
+  font-family: 'Poppins', 'Inter', 'Helvetica Neue', sans-serif;
+  background-color: #fafafa;
   color: #222;
-  background: #fff;
+  line-height: 1.7;
   margin: 0;
+  padding: 0;
 }
 
 a {
-  color: #007acc;
   text-decoration: none;
+  color: #007aff;
+  transition: color 0.2s ease;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #0056b3;
 }
 
-article {
-  margin-bottom: 2em;
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: #111;
+  text-decoration: none;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 1.8rem;
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+  list-style: none;
 }
 
-footer a {
-  color: #333;
+.post-list li {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  padding: 1.5rem;
+  transition: all 0.3s ease;
 }
 
-footer a:hover {
-  color: #007acc;
+.post-list li:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.post-list h2 {
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.post-list .post-meta {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+
+.post-list p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+button, .btn {
+  background: #007aff;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+button:hover, .btn:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
 }
