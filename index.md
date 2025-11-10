@@ -1,23 +1,25 @@
 ---
 layout: default
-title: "Grow With Boss Blog"
+title: "BOSS BLOG"
 ---
 
-<h1>📝 Grow With Boss Blog</h1>
+<section style="text-align:center; margin-top:2rem;">
+  <h1 style="font-size:2.2rem;">📝 BLOG </h1>
+  <p style="color:#666; max-width:600px; margin:0 auto;">Sharing insights, guides, and lessons from my journey to grow smarter, faster, and stronger.</p>
+</section>
 
-{% if site.posts and site.posts.size > 0 %}
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
-        {% if post.excerpt %}
-          <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-        {% endif %}
-        <a href="{{ post.url | relative_url }}">Read more →</a>
-      </li>
-    {% endfor %}
-  </ul>
-{% else %}
-  <p>No blog posts found yet.</p>
-{% endif %}
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      {% if post.thumbnail %}
+        <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="width:100%; border-radius:12px; margin-bottom:1rem;">
+      {% endif %}
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+      {% if post.excerpt %}
+        <p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+      {% endif %}
+      <a class="btn" href="{{ post.url | relative_url }}">Read More</a>
+    </li>
+  {% endfor %}
+</ul>
