@@ -3,7 +3,7 @@ description: "Insights, stories, and lessons from BOSS"
 theme: minima
 
 url: "https://growwithboss.github.io"
-baseurl: ""
+baseurl: "/blog"
 
 plugins:
   - jekyll-feed
