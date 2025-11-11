@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "GrowWithBoss Blog"
+title: "OM"
 ---
 
 <style>
@@ -102,7 +102,7 @@ a:hover {
 </style>
 
 <div class="blog-header">
-  <h1>GrowWithBoss Blog</h1>
+  <h1>BOSS</h1>
   <p>Insights, tutorials, and stories to help you grow faster 🚀</p>
 </div>
 
