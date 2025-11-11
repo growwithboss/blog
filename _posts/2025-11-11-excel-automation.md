@@ -4,11 +4,11 @@ published: true
 tags:
 - Excel
 - EasyWork
-thumbnail: https://lh7-us.googleusercontent.com/gg-dl/ABS2GSkHYqVVgkfD2AoxhvqV_z4Cs9_It6j8cBEPLRFAEISBP9y2a739m8u5M9N-GFxf3SwxK_eQ8R7qwpSYoTBCpGyRolh5MXnEbUbwuYHvKc0iJuK4JC1SoWcy0p5L7-F2WLXcuL-JS2idXLrxlcW_X-WX2wpA0BJRVCSjn52YcMLySJbB2g=w2816-h1536?authuser=0
+thumbnail: /blog/assets/images/thumbnails/excelautomation.png
 title: Excel Automation
 ---
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf6VPZR0S2aUrwYcYyBciVPsC_bzEapdkCFyaR3MKeaVo7csMKLMifYcpWvYYH1wzaaBDlR8ocig8iOIm-wxWG-l4GAuLs17ffsDKj2E3zE9ZIZqR-lEVBpIoAcha7WRu8?key=DfFyBX7CyQzub2zlohYpiw)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcXJ8tvX1v-idZZvG7D8Qbt2sAQ8N5PtJP9ggfNnIxQX6_uilXoFvz_L7tviFddhXsQHTln4gFFZFHUGtFOWpNwQ2MNcdouAyDCSDfP6caXjeMBC6drTMJoT1ZNKTjazk8?key=DfFyBX7CyQzub2zlohYpiw)
 
 Excel Automation: Simplifying Your Daily Life
 
@@ -58,4 +58,4 @@ Our services include:
 
 Let BOSS help you transform the way you work and live by leveraging the incredible capabilities of Excel automation.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfYnHWyw_PFD-ekGDUCxJ5x1tEgWQnX0-a5l_vnm3O6V-iVpM3OZ4-mhiRCQyD-S2uZlKTC6DJ3FBS76m-OP0wIN9gZICJ5R00dXc5voiMOcbIWFIahSYUndFTrYesafPc?key=DfFyBX7CyQzub2zlohYpiw)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdyrwqDfXiz1hPpPF7jpJ-HrjbQpaxfb0m3B34fALnzBL321RE3iy_oY55Kawv7FA6qTNAPkfHaVKnwBfZe8xSWJnAlSsf3eW6f_WrHlft-wnBXUun2QvbXyhRzuVAXS3E?key=DfFyBX7CyQzub2zlohYpiw)
