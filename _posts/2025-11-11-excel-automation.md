@@ -4,7 +4,7 @@ published: true
 tags:
 - Excel
 - EasyWork
-thumbnail: ''
+thumbnail: https://lh7-us.googleusercontent.com/gg-dl/ABS2GSkHYqVVgkfD2AoxhvqV_z4Cs9_It6j8cBEPLRFAEISBP9y2a739m8u5M9N-GFxf3SwxK_eQ8R7qwpSYoTBCpGyRolh5MXnEbUbwuYHvKc0iJuK4JC1SoWcy0p5L7-F2WLXcuL-JS2idXLrxlcW_X-WX2wpA0BJRVCSjn52YcMLySJbB2g=w2816-h1536?authuser=0
 title: Excel Automation
 ---
 
@@ -58,4 +58,4 @@ Our services include:
 
 Let BOSS help you transform the way you work and live by leveraging the incredible capabilities of Excel automation.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeI2_Mh-L-wQlS-OsCSZm7op2oE7-CMVRQbtmnPHyWdU7r9k3-UZlSPkD6UlFVnxG6ZALANPaMUDVR3-YviI-bzMxAIpC9jMHmWkgLu40Fw_0qQclzxOQugnjPuIXwFPOk?key=DfFyBX7CyQzub2zlohYpiw)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfYnHWyw_PFD-ekGDUCxJ5x1tEgWQnX0-a5l_vnm3O6V-iVpM3OZ4-mhiRCQyD-S2uZlKTC6DJ3FBS76m-OP0wIN9gZICJ5R00dXc5voiMOcbIWFIahSYUndFTrYesafPc?key=DfFyBX7CyQzub2zlohYpiw)

@@ -6,7 +6,7 @@ tags:
 - bc
 - pc
 - cc
-thumbnail: ''
+thumbnail: https://lh7-us.googleusercontent.com/gg-dl/ABS2GSnaOtbRLuSEWawr8re5LKi3VX0TWTFriFNy4iWESTQ_dhOQ2RRLTaK-Zund1zG5vPv_AlQ2EyFhG0EZ5ugRX6B05UagVsCz4XXYELbRT1XD95XYbY38vSFgkai56OUCobzXRu0iLD0B5h-h4nxXFroKFXkOvATTJ5I1X3EzUaR2R0DI=w2048-h2048?authuser=0
 title: My Test Blog
 ---
 
@@ -14,7 +14,7 @@ The Dawn of a New Era: Understanding the Impact of Artificial Intelligence
 
 Artificial Intelligence (AI) is no longer a concept confined to the pages of science fiction. It's a transformative force that is rapidly reshaping our world, from how we work and live to how we interact with technology and each other. Understanding its impact is crucial as we navigate this exciting and sometimes daunting new era.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdYmXukjU48_3DkqMSxxtnwNKRmx9QxIv7s4ZYWWH2CIyEuZGq4ntdL9O3Vu4L1YqEU8FBFIMDvbTR72jLJDOU4X98QfBp2lwNlKAxzPxhnlqqm5KHJUQwZ7zsO13jbIdg?key=hMKqyMWqSksQZ7tL-dfa_A)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeFKIvfpW5RqpxlvBI8RYOSfomB-PGNCfNCBUt0dK7fAfO4H_V82shtzcOuW9X-4c10QUCvjZScwYD_soONOCACznz4qzqnlWXLxz-vcoVwr_053oh2z9-5kz1kId8vuoY?key=hMKqyMWqSksQZ7tL-dfa_A)
 
 What Exactly is AI?
 ===================
