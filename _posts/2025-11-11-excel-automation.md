@@ -8,7 +8,7 @@ thumbnail: /blog/assets/images/thumbnails/excelautomation.png
 title: Excel Automation
 ---
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXey3d62yLsQRtFRAq9-FtbYC8JpjAfeGnD8O9PDbV5_B5UdDtUncGssTIEGw-T7kPqrs9ODWOx9mczruNQ5Qf_xjFEs4IotReLoKNQc1Q9jwoDgvplviAtGVSjvk1EnCNk?key=DfFyBX7CyQzub2zlohYpiw)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeUtL7GAhpIBjkPxUfxXOv9GjYsW_eKoFp12e-u1tl81XF8kCfgcDEChyM21z1nxSsk3n6h-CRMnSn9VncF6kq7uFAezR6M9XsV1GAwN6dskv9v7u9tAbpe8U6hLkLr0f0?key=DfFyBX7CyQzub2zlohYpiw)
 
 Excel Automation: Simplifying Your Daily Life
 
@@ -58,4 +58,4 @@ Our services include:
 
 Let BOSS help you transform the way you work and live by leveraging the incredible capabilities of Excel automation.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXctsrVedB62iBQ-zTs1P81x700W3PrfDQjTB0_fsMlJ--8xFcyvPEijZn4nGjt6zd0Fkabo_edGZHxA2klHKojOVh5Dq0MMeHYzAQul5QYmr4hTctz3jQvOIno6Zdg7E2E?key=DfFyBX7CyQzub2zlohYpiw)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf1iLoumY1p3C9LgDR-TspH2zhD_nFSWIEHyI-NbosHaFHtqxzD3N9HqCIQvtstc3mQcp1wuePD0x3LG1pu3PsIId6-Obf7MUfX3f7mMY2fBKQggYvcOxxgJrqPcmm1wIg?key=DfFyBX7CyQzub2zlohYpiw)
