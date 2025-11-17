@@ -14,7 +14,7 @@ The Dawn of a New Era: Understanding the Impact of Artificial Intelligence
 
 Artificial Intelligence (AI) is no longer a concept confined to the pages of science fiction. It's a transformative force that is rapidly reshaping our world, from how we work and live to how we interact with technology and each other. Understanding its impact is crucial as we navigate this exciting and sometimes daunting new era.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcaZ-tE_2RYRW2x_jf9_BQDyXErZaIzbdLTKN8F59OUwP8r85lkZ3qyBp03qlY8HwyZCrx0_RKLrtoibCqru8dxi1qO_uIuDmUjXnSd3MgomvbtwIgw6jA-gLkpDzmNmL0?key=hMKqyMWqSksQZ7tL-dfa_A)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc1ql9pr0Pq8zKFmkuH7hjQyu_CtEAgCUPMVgCpi5IoNGto9ZZ--E9jzgJQGgpAsSlolLuwj2FYjDpnxJ2p3sAeobixnIAX5D0JTrdt9HwsNJjylhQXKazIoqyEUyw7Eh0?key=hMKqyMWqSksQZ7tL-dfa_A)
 
 What Exactly is AI?
 ===================
